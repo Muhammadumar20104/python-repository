@@ -1,0 +1,14 @@
+li=[2,7,5,3,9,6,0,45]
+print(li[2])
+li[2]=10
+print(li)
+a=li+[23,45,67,89]
+print(a)
+a.append(345)
+print(a)
+a[:3]=[0,0,0]
+print(a)
+a[:4]=[]
+print(a)
+a[:]=[]
+print(a)
