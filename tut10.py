@@ -1,19 +1,19 @@
-# def fun(age):
-#     girl=age+2
-#     return girl
+def fun(age):
+    girl=age+2
+    return girl
 
-# print(fun(33))
+print(fun(33))
 
 # Default Values for Arguments
 
-# def gender(sex='Unknown'):
-#     if sex=='m':
-#         print("Male")
-#     elif sex=='f':
-#         print("Female")
-#     print(sex)
-# gender('m')
-# gender('f')
+def gender(sex='Unknown'):
+    if sex=='m':
+        print("Male")
+    elif sex=='f':
+        print("Female")
+    print(sex)
+gender('m')
+gender('f')
 
 # Variable Scope
 a=23
